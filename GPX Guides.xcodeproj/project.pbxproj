@@ -11,27 +11,8 @@
 		462AA36E2B55547B0004AC37 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462AA36D2B55547B0004AC37 /* ContentView.swift */; };
 		462AA3702B55547C0004AC37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 462AA36F2B55547C0004AC37 /* Assets.xcassets */; };
 		462AA3732B55547C0004AC37 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 462AA3722B55547C0004AC37 /* Preview Assets.xcassets */; };
-		462AA37D2B55547C0004AC37 /* GPX_GuidesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462AA37C2B55547C0004AC37 /* GPX_GuidesTests.swift */; };
-		462AA3872B55547C0004AC37 /* GPX_GuidesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462AA3862B55547C0004AC37 /* GPX_GuidesUITests.swift */; };
-		462AA3892B55547C0004AC37 /* GPX_GuidesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462AA3882B55547C0004AC37 /* GPX_GuidesUITestsLaunchTests.swift */; };
+		462AA3982B556DC60004AC37 /* GPXDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462AA3972B556DC60004AC37 /* GPXDocument.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		462AA3792B55547C0004AC37 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 462AA3602B55547B0004AC37 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 462AA3672B55547B0004AC37;
-			remoteInfo = "GPX Guides";
-		};
-		462AA3832B55547C0004AC37 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 462AA3602B55547B0004AC37 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 462AA3672B55547B0004AC37;
-			remoteInfo = "GPX Guides";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		462AA3682B55547B0004AC37 /* GPX Guides.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GPX Guides.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,29 +20,12 @@
 		462AA36D2B55547B0004AC37 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		462AA36F2B55547C0004AC37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		462AA3722B55547C0004AC37 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		462AA3782B55547C0004AC37 /* GPX GuidesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GPX GuidesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		462AA37C2B55547C0004AC37 /* GPX_GuidesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPX_GuidesTests.swift; sourceTree = "<group>"; };
-		462AA3822B55547C0004AC37 /* GPX GuidesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GPX GuidesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		462AA3862B55547C0004AC37 /* GPX_GuidesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPX_GuidesUITests.swift; sourceTree = "<group>"; };
-		462AA3882B55547C0004AC37 /* GPX_GuidesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPX_GuidesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		462AA3972B556DC60004AC37 /* GPXDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPXDocument.swift; sourceTree = "<group>"; };
+		462AA3992B557B710004AC37 /* GPX-Guides-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GPX-Guides-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		462AA3652B55547B0004AC37 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		462AA3752B55547C0004AC37 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		462AA37F2B55547C0004AC37 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -75,8 +39,6 @@
 			isa = PBXGroup;
 			children = (
 				462AA36A2B55547B0004AC37 /* GPX Guides */,
-				462AA37B2B55547C0004AC37 /* GPX GuidesTests */,
-				462AA3852B55547C0004AC37 /* GPX GuidesUITests */,
 				462AA3692B55547B0004AC37 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,8 +47,6 @@
 			isa = PBXGroup;
 			children = (
 				462AA3682B55547B0004AC37 /* GPX Guides.app */,
-				462AA3782B55547C0004AC37 /* GPX GuidesTests.xctest */,
-				462AA3822B55547C0004AC37 /* GPX GuidesUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,8 +54,10 @@
 		462AA36A2B55547B0004AC37 /* GPX Guides */ = {
 			isa = PBXGroup;
 			children = (
+				462AA3992B557B710004AC37 /* GPX-Guides-Info.plist */,
 				462AA36B2B55547B0004AC37 /* GPX_GuidesApp.swift */,
 				462AA36D2B55547B0004AC37 /* ContentView.swift */,
+				462AA3972B556DC60004AC37 /* GPXDocument.swift */,
 				462AA36F2B55547C0004AC37 /* Assets.xcassets */,
 				462AA3712B55547C0004AC37 /* Preview Content */,
 			);
@@ -108,23 +70,6 @@
 				462AA3722B55547C0004AC37 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		462AA37B2B55547C0004AC37 /* GPX GuidesTests */ = {
-			isa = PBXGroup;
-			children = (
-				462AA37C2B55547C0004AC37 /* GPX_GuidesTests.swift */,
-			);
-			path = "GPX GuidesTests";
-			sourceTree = "<group>";
-		};
-		462AA3852B55547C0004AC37 /* GPX GuidesUITests */ = {
-			isa = PBXGroup;
-			children = (
-				462AA3862B55547C0004AC37 /* GPX_GuidesUITests.swift */,
-				462AA3882B55547C0004AC37 /* GPX_GuidesUITestsLaunchTests.swift */,
-			);
-			path = "GPX GuidesUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,42 +92,6 @@
 			productReference = 462AA3682B55547B0004AC37 /* GPX Guides.app */;
 			productType = "com.apple.product-type.application";
 		};
-		462AA3772B55547C0004AC37 /* GPX GuidesTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 462AA38F2B55547C0004AC37 /* Build configuration list for PBXNativeTarget "GPX GuidesTests" */;
-			buildPhases = (
-				462AA3742B55547C0004AC37 /* Sources */,
-				462AA3752B55547C0004AC37 /* Frameworks */,
-				462AA3762B55547C0004AC37 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				462AA37A2B55547C0004AC37 /* PBXTargetDependency */,
-			);
-			name = "GPX GuidesTests";
-			productName = "GPX GuidesTests";
-			productReference = 462AA3782B55547C0004AC37 /* GPX GuidesTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		462AA3812B55547C0004AC37 /* GPX GuidesUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 462AA3922B55547C0004AC37 /* Build configuration list for PBXNativeTarget "GPX GuidesUITests" */;
-			buildPhases = (
-				462AA37E2B55547C0004AC37 /* Sources */,
-				462AA37F2B55547C0004AC37 /* Frameworks */,
-				462AA3802B55547C0004AC37 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				462AA3842B55547C0004AC37 /* PBXTargetDependency */,
-			);
-			name = "GPX GuidesUITests";
-			productName = "GPX GuidesUITests";
-			productReference = 462AA3822B55547C0004AC37 /* GPX GuidesUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,14 +104,6 @@
 				TargetAttributes = {
 					462AA3672B55547B0004AC37 = {
 						CreatedOnToolsVersion = 15.2;
-					};
-					462AA3772B55547C0004AC37 = {
-						CreatedOnToolsVersion = 15.2;
-						TestTargetID = 462AA3672B55547B0004AC37;
-					};
-					462AA3812B55547C0004AC37 = {
-						CreatedOnToolsVersion = 15.2;
-						TestTargetID = 462AA3672B55547B0004AC37;
 					};
 				};
 			};
@@ -220,8 +121,6 @@
 			projectRoot = "";
 			targets = (
 				462AA3672B55547B0004AC37 /* GPX Guides */,
-				462AA3772B55547C0004AC37 /* GPX GuidesTests */,
-				462AA3812B55547C0004AC37 /* GPX GuidesUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -236,20 +135,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		462AA3762B55547C0004AC37 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		462AA3802B55547C0004AC37 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -259,40 +144,11 @@
 			files = (
 				462AA36E2B55547B0004AC37 /* ContentView.swift in Sources */,
 				462AA36C2B55547B0004AC37 /* GPX_GuidesApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		462AA3742B55547C0004AC37 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				462AA37D2B55547C0004AC37 /* GPX_GuidesTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		462AA37E2B55547C0004AC37 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				462AA3872B55547C0004AC37 /* GPX_GuidesUITests.swift in Sources */,
-				462AA3892B55547C0004AC37 /* GPX_GuidesUITestsLaunchTests.swift in Sources */,
+				462AA3982B556DC60004AC37 /* GPXDocument.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		462AA37A2B55547C0004AC37 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 462AA3672B55547B0004AC37 /* GPX Guides */;
-			targetProxy = 462AA3792B55547C0004AC37 /* PBXContainerItemProxy */;
-		};
-		462AA3842B55547C0004AC37 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 462AA3672B55547B0004AC37 /* GPX Guides */;
-			targetProxy = 462AA3832B55547C0004AC37 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		462AA38A2B55547C0004AC37 /* Debug */ = {
@@ -347,7 +203,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -404,7 +260,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -425,21 +281,30 @@
 				DEVELOPMENT_TEAM = 7997G399U7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GPX-Guides-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "GPX Guides";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.9;
 				PRODUCT_BUNDLE_IDENTIFIER = "duz.ie.GPX-Guides";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -454,97 +319,30 @@
 				DEVELOPMENT_TEAM = 7997G399U7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GPX-Guides-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "GPX Guides";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.9;
 				PRODUCT_BUNDLE_IDENTIFIER = "duz.ie.GPX-Guides";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		462AA3902B55547C0004AC37 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7997G399U7;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "duz.ie.GPX-GuidesTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPX Guides.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GPX Guides";
-			};
-			name = Debug;
-		};
-		462AA3912B55547C0004AC37 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7997G399U7;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "duz.ie.GPX-GuidesTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPX Guides.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GPX Guides";
-			};
-			name = Release;
-		};
-		462AA3932B55547C0004AC37 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7997G399U7;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "duz.ie.GPX-GuidesUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "GPX Guides";
-			};
-			name = Debug;
-		};
-		462AA3942B55547C0004AC37 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7997G399U7;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "duz.ie.GPX-GuidesUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "GPX Guides";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -565,24 +363,6 @@
 			buildConfigurations = (
 				462AA38D2B55547C0004AC37 /* Debug */,
 				462AA38E2B55547C0004AC37 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		462AA38F2B55547C0004AC37 /* Build configuration list for PBXNativeTarget "GPX GuidesTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				462AA3902B55547C0004AC37 /* Debug */,
-				462AA3912B55547C0004AC37 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		462AA3922B55547C0004AC37 /* Build configuration list for PBXNativeTarget "GPX GuidesUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				462AA3932B55547C0004AC37 /* Debug */,
-				462AA3942B55547C0004AC37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
