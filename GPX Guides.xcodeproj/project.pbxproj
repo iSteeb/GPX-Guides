@@ -15,7 +15,9 @@
 		462AA3B82B5583640004AC37 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462AA3B72B5583640004AC37 /* ShareViewController.swift */; };
 		462AA3BF2B5583640004AC37 /* Share from Apple Maps.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 462AA3B52B5583640004AC37 /* Share from Apple Maps.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		462AA3C52B5587780004AC37 /* ShareExtensionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462AA3C42B5587780004AC37 /* ShareExtensionView.swift */; };
-		462AA3C72B558E250004AC37 /* GPXDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462AA3C62B558E250004AC37 /* GPXDocument.swift */; };
+		46C735D62B568F7300FD2039 /* GPXDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462AA3972B556DC60004AC37 /* GPXDocument.swift */; };
+		46C735D82B56902800FD2039 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C735D72B56902800FD2039 /* Utils.swift */; };
+		46C735D92B56902800FD2039 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C735D72B56902800FD2039 /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +56,7 @@
 		462AA3B72B5583640004AC37 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
 		462AA3BC2B5583640004AC37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		462AA3C42B5587780004AC37 /* ShareExtensionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareExtensionView.swift; sourceTree = "<group>"; };
-		462AA3C62B558E250004AC37 /* GPXDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPXDocument.swift; sourceTree = "<group>"; };
+		46C735D72B56902800FD2039 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				462AA36B2B55547B0004AC37 /* GPX_GuidesApp.swift */,
 				462AA36D2B55547B0004AC37 /* ContentView.swift */,
 				462AA3972B556DC60004AC37 /* GPXDocument.swift */,
+				46C735D72B56902800FD2039 /* Utils.swift */,
 				462AA36F2B55547C0004AC37 /* Assets.xcassets */,
 				462AA3712B55547C0004AC37 /* Preview Content */,
 			);
@@ -120,7 +123,6 @@
 				462AA3B72B5583640004AC37 /* ShareViewController.swift */,
 				462AA3BC2B5583640004AC37 /* Info.plist */,
 				462AA3C42B5587780004AC37 /* ShareExtensionView.swift */,
-				462AA3C62B558E250004AC37 /* GPXDocument.swift */,
 			);
 			path = "Share from Apple Maps";
 			sourceTree = "<group>";
@@ -228,6 +230,7 @@
 				462AA36E2B55547B0004AC37 /* ContentView.swift in Sources */,
 				462AA36C2B55547B0004AC37 /* GPX_GuidesApp.swift in Sources */,
 				462AA3982B556DC60004AC37 /* GPXDocument.swift in Sources */,
+				46C735D82B56902800FD2039 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,7 +240,8 @@
 			files = (
 				462AA3C52B5587780004AC37 /* ShareExtensionView.swift in Sources */,
 				462AA3B82B5583640004AC37 /* ShareViewController.swift in Sources */,
-				462AA3C72B558E250004AC37 /* GPXDocument.swift in Sources */,
+				46C735D62B568F7300FD2039 /* GPXDocument.swift in Sources */,
+				46C735D92B56902800FD2039 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,7 +401,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.9;
+				MARKETING_VERSION = 0.9.9;
 				PRODUCT_BUNDLE_IDENTIFIER = "duz.ie.GPX-Guides";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -436,7 +440,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.9;
+				MARKETING_VERSION = 0.9.9;
 				PRODUCT_BUNDLE_IDENTIFIER = "duz.ie.GPX-Guides";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
